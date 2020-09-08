@@ -1,2 +1,2 @@
-# seitenplanet
-seitenplanet
+# 晴天プラネットのホームページ
+まかせた
