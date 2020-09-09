@@ -6,6 +6,7 @@
   position: sticky;
   top: 0;
   display: inline-block;
+  z-index: 2147483647;
 }
 
 .top_icon {
@@ -64,3 +65,24 @@
   font-weight: bold;/*文字を太字に*/
   color:white; /*文字色を白に*/
 }
+
+.slide {
+  width:800px;
+  margin:10px auto;
+  }
+  .bx-custom-pager {
+  bottom: -50px !important; /* thumbnail 位置調整 */
+  text-align:center !important;
+  }
+  .bx-custom-pager .bx-pager-item {
+  width:90px !important; /* thumbnail サイズ調整 */
+  height:60px !important; /* thumbnail サイズ調整 */
+  margin:0 20px;
+  }
+  .bx-pager-item img {
+  border:1px solid #ffffff;
+  }
+  .bx-pager-item .active img {
+  border:1px solid #cc0000;
+  opacity: 0.7;
+  }
