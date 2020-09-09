@@ -1,46 +1,50 @@
 
 .header {
-  background-color: violet;
+  background-color: white;
   height: 100px;
-  width: 1200px;
+  width: 100%;
   position: sticky;
   top: 0;
+  display: inline-block;
 }
 
 .top_icon {
   height: 100px;
   width: 400px;
-  display: flex;
+  float: left;
 }
 
 .space-one {
-  width: 20%;
-  height: 50px;
+  width: 100%;
+  height: auto;
+  float: left;
 }
 
 .spane-two {
   width: 100%;
   height: 40px;
-  display: flex;
+  display: inline-block;
 }
 
 .icon {
   height: 40px;
   width: 40px;
+  float: left;
 }
 
 /* ↓id="nav"の中のulに対してCSSを適用*/
 #space-one ul {
   list-style-type: none; /*箇条書きのポッチを消す*/
-  text-align:center /*左右中央寄せは親要素に対して指定*/
+  text-align:center; /*左右中央寄せは親要素に対して指定*/
+  float: left;
 }
 
 /* ↓id="nav"の中のulの中のliに対してCSSを適用*/
 #space-one ul li { 
-  display: inline-block;/*inline-blockにします*/
   padding: 10px 0;/*余白も指定できる*/
   margin: 10px 0;/*余白も指定できる*/
   vertical-align: middle;/*縦の表示位置も指定できる*/
+  float: left;
 }
 
 /* ↓id="nav"の中のulに対してCSSを適用*/
@@ -60,20 +64,3 @@
   font-weight: bold;/*文字を太字に*/
   color:white; /*文字色を白に*/
 }
-
-/* .button {
-  height: 30px;
-  width: 100px;
-  background-color: darkblue;
-  color: aliceblue;
-  border: solid;
-  border-color: chartreuse;
-  font-size: 20px;
-} */
-
-/* .button:after {
-  margin-left: 20px;
-  width: 5px;
-  height: 30px;
-  background-color: brown;
-} */
