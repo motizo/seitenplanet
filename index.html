@@ -2,6 +2,8 @@
 <html lang="ja" dir="ltr">
   <head>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- <script src="js/jquery-3.5.1.min.js"></script> -->
     <title>晴天プラネット</title>
     <!-- twitter:cardの設定 -->
@@ -26,12 +28,12 @@
       autoHover: true,
       infiniteLoop: true,
       oneToOneTouch: true,
-      slideWidth:640,
+      slideWidth:800,
       touchEnabled:true,
       minSlides:3,
       maxSlides:3,
       moveSlides:1,
-      slideMargin:0,
+      slideMargin:20,
       controls:true, // true , false
       captions:false, // true , false
       pager:true, // true , false
@@ -87,14 +89,26 @@
       <li><img src="png/slide/p4.jpg" alt="" width="640" height="300"></li>
     </ul>
     </div></div>
-    <div>TOP画像置き場</div>
 
-    <img class="" style="height:100px" src="png/logo.png">
+    <!-- リスト記事一覧 -->
+    <div>
+      <section class="py-4">
+        <h2 class="mb-3 h4 font-weight-bold">お知らせ</h2>
+        <ul class="h5 list-unstyled">
+            <li class="p-4 border-top border-bottom"> <a href="#"> <span class="">2020.09.19</span> <span class="bg-info p-2 mx-lg-3 my-1 text-white rounded d-block d-lg-inline text-center">イベント情報</span> <span>焼肉食べたい</span> </a> </li>
+            <li class="p-4 border-bottom"> <a href="#"> <span class="">2018.09.08</span> <span class="bg-info p-2 mx-lg-3 text-white rounded d-block d-lg-inline text-center">記念日</span> <span>サイト制作記念日</span> </a> </li>
+        </ul>
+      </section>
+    </div>
 
     <div>
       <div>更新履歴</div>
       20.09.09(水) サイト開設
     </div>
     <div>twiter表示箇所</div>
+    <div style="text-align: center"><img class="" style="height:100px " src="png/logo.png"></div>
+    <footer>
+      <div style="text-align: center">©晴天プラネット</div>
+    </footer>
   </body>
 </html>
