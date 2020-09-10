@@ -1,12 +1,12 @@
 
 .header {
   background: url(../png/header_back.png);
-  height: 100px;
+  height: 80px;
   width: 100%;
   position: sticky;
   top: 0;
   display: inline-block;
-  z-index: 2147483647;
+  z-index: 100;
 }
 
 .top_icon {
