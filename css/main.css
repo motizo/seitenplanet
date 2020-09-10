@@ -69,12 +69,39 @@
   color:white; /*文字色を白に*/
 }
 
-.slide {
-  width:1200px;
-  margin:10px auto;
-  }
+/* .bx-wrapper .bx-prev,
+.bx-wrapper .bx-next {
+    background: none;
+}
+.bx-wrapper .bx-prev::after,
+.bx-wrapper .bx-next::after {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ddd;
+    font-size: 60px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-indent: 0px;
+}
+.bx-wrapper .bx-prev::after {
+    left: -90px;
+    content: "f137";
+}
+.bx-wrapper .bx-next::after {
+    right: -90px;
+    content: "f138";
+}
+.bx-wrapper .bx-prev:hover::after,
+.bx-wrapper .bx-next:hover::after {
+    color: #bbb;
+}
+.bx-wrapper .bx-controls-direction a {
+    z-index: 9998;
+} */
+
   .bx-custom-pager {
-  bottom: -100px !important; /* thumbnail 位置調整 */
+  bottom: -80px !important; /* thumbnail 位置調整 */
   text-align:center !important;
   }
   .bx-custom-pager .bx-pager-item {
@@ -83,7 +110,7 @@
   margin:0 20px;
   }
   .bx-pager-item img {
-  border:1px solid #ffffff;
+  border:1px solid #663030;
   }
   .bx-pager-item .active img {
   border:1px solid #cc0000;
