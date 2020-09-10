@@ -1,6 +1,6 @@
 
 .header {
-  background-color: black;
+  background: url(../png/header_back.png);
   height: 100px;
   width: 100%;
   position: sticky;
